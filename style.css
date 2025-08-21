@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background-color: #f7e3cf; 
+}
+.nav-links {
+  display:flex;
+  gap: 20px;
+
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #e8bf8e;
+  text-shadow: #e8bf8e;
+}
+header{
+    padding: 15px 0;
+    background-color: #ec9d3f;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+    font-family: 'poppins', sans-serif;
+  display: grid
+}
+#pizza{
+    border-radius: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+section{
+    background-color: #f0debc;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+#reviews{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#review-list{
+    list-style-type: square;
+    padding: 0;
+}
+#review-list li{
+    margin-bottom: 5px;
+}
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #e8bf8e;
+    color: rgb(0, 0, 0);
+    border-top: 2px solid #f0debc;
+    box-sizing: content-box;
+}
